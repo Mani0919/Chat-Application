@@ -7,7 +7,9 @@ export default function layout() {
     <Stack>
         <Stack.Screen name="index" options={{
           headerShown:false
-        }}/>    
+        }}/>   
+        <Stack.Screen name="chat"/>  
+        <Stack.Screen name="contacts"/>  
     </Stack>
   )
 }

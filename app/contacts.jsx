@@ -37,7 +37,7 @@ const ContactsScreen = () => {
             onPress={() => {
               router.push({
                 pathname: "/chat",
-                params: { contactName: item.name ,userName:"You"},
+                params: { contactName: item.name },
               });
             }}
           >
